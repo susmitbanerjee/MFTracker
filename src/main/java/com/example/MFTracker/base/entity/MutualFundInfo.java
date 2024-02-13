@@ -1,9 +1,12 @@
 package com.example.MFTracker.base.entity;
 
 import com.example.MFTracker.base.enums.InvestmentType;
+import lombok.Getter;
+import lombok.Setter;
 
 import java.util.Date;
-
+@Getter
+@Setter
 public class MutualFundInfo {
     private String name;
     private String risk;

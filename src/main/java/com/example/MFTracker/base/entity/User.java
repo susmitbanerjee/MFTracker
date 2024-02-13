@@ -3,6 +3,7 @@ package com.example.MFTracker.base.entity;
 import com.example.MFTracker.base.enums.Depository;
 import com.example.MFTracker.base.enums.Genders;
 import com.example.MFTracker.base.enums.MaritalStatus;
+import jakarta.persistence.Entity;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
@@ -13,6 +14,7 @@ import java.util.List;
 @Getter
 @Setter
 @ToString
+@Entity
 public class User {
     private String id;
     private String name;
